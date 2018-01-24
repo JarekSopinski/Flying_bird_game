@@ -5,7 +5,7 @@ This game is based on a [YouTube tutorial](https://www.youtube.com/watch?v=Wrzr-
 
 I made it to practice how games work with jQuery and if it's a better way than building game with canvas.
 
-You can [play the game here](#).
+You can [play the game here](https://rawgit.com/JarekSopinski/Flying_bird_game/master/index.html).
 
 
 
