@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flying bird game</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Luckiest+Guy" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1>HELP THE BIRD SURVIVE!</h1>
+
+    <p id="rules">Navigate the bird through the obstacles using [space]. You lose when it touches the bricks or the "ground".</p>
+
+    <div id="container">
+
+        <div id="bird"></div>
+
+        <div id="pole_1" class="pole"></div>
+        <div id="pole_2" class="pole"></div>
+
+    </div>
+
+    <div id="score_div">
+
+        <p>Score: </p><p id="score">0</p>
+        <p>Speed: </p><p id="speed">10</p>
+        <br>
+        <span id="speed_msg"></span>
+    </div>
+
+    <button id="restart_btn">Loser!  You killed the poor bird :( Want to try again?</button>
+
+<script src="jquery-3.2.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

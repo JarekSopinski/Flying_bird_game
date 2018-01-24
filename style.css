@@ -1,0 +1,91 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #FF9F1C;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+#rules {
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Baloo Paaji', cursive;
+    font-size: 20px;
+}
+
+#container {
+    position: relative;
+    height: 400px;
+    width: 90%;
+    border: 10px solid #92140C;
+    margin-left: 4%;
+    overflow: hidden;
+    background: url("sky-70490_1280.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#bird {
+    position: absolute;
+    background: url("hummingbird.svg");
+    height: 42px;
+    width: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+}
+
+.pole {
+    position: absolute;
+    height: 130px;
+    width: 50px;
+    right: -50px;
+    background: url("brick-wall.svg");
+    background-size: cover;
+    background-repeat: repeat;
+
+}
+
+#pole_1 {
+    top: 0;
+}
+
+#pole_2 {
+    bottom: 0;
+}
+
+#score_div {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Baloo Paaji', cursive;
+}
+
+#score_div p {
+    display: inline;
+}
+
+#score {
+    margin-right: 30px;
+}
+
+#restart_btn {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #92140C;
+    font-size: 35px;
+    font-family: 'Baloo Paaji', cursive;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
