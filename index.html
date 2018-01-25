@@ -6,32 +6,40 @@
     <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Luckiest+Guy" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<style>
+    #start_btn {
+        position: absolute;
+        top: 30%;
+        left: 28%;
+        width: 500px;
+        height: 150px;
+        cursor: pointer;
+        border: 10px solid #92140C;
+        background-color: #9BC53D;
+        font-size: 60px;
+        font-family: 'Baloo Paaji', cursive;
+        color: black;
+        text-decoration: none;
+    }
+</style>
 <body>
 
-    <h1>HELP THE BIRD SURVIVE!</h1>
+<h1>HELP THE BIRD SURVIVE!</h1>
 
-    <p id="rules">Navigate the bird through the obstacles using [space]. You lose when it touches the bricks or the "ground".</p>
+<p id="rules">Navigate the bird through the obstacles using [space]. You lose when it flies into the bricks.<br>
+Moreover, you can't touch the bottom or the top of the window.</p>
 
-    <div id="container">
+<div id="container">
 
-        <div id="bird"></div>
+    <div id="bird"></div>
 
-        <div id="pole_1" class="pole"></div>
-        <div id="pole_2" class="pole"></div>
+    <a href="game.html"><button id="start_btn">START</button></a>
 
-    </div>
+</div>
 
-    <div id="score_div">
+<div id="score_div">
+    <p>Good luck!</p>
+</div>
 
-        <p>Score: </p><p id="score">0</p>
-        <p>Speed: </p><p id="speed">10</p>
-        <br>
-        <span id="speed_msg"></span>
-    </div>
-
-    <button id="restart_btn">Loser!  You killed the poor bird :( Want to try again?</button>
-
-<script src="jquery-3.2.1.min.js"></script>
-<script src="script.js"></script>
 </body>
 </html>
